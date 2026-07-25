@@ -12,130 +12,103 @@ Building LLM inference systems and voice AI pipelines at NVIDIA. Writing about t
 <div class="talks-ticker-wrap">
   <div class="talks-ticker">
 
-    <div class="talk-card">
-      <div class="talk-event">Talk / Conference</div>
-      <div class="talk-title">Add your first talk title here</div>
-      <div class="talk-meta">2026 · Topic</div>
-    </div>
+    <a class="talk-card" href="/posts/2026-01-04-hollow-gpu-mig-optimization/">
+      <div class="talk-type">Article</div>
+      <div class="talk-title">The Hollow GPU Problem — Optimizing GenAI Inference with MIG</div>
+      <div class="talk-meta">Jan 2026 · GPU · NVIDIA · A100</div>
+    </a>
 
-    <div class="talk-card">
-      <div class="talk-event">Podcast / Webinar</div>
-      <div class="talk-title">Add podcast or webinar appearance</div>
-      <div class="talk-meta">2025 · LLM Systems</div>
-    </div>
+    <a class="talk-card" href="/posts/2026-01-10-barge-in-voice-ai-interrupt-handling/">
+      <div class="talk-type">Article</div>
+      <div class="talk-title">Barge-In Support — Interrupt Handling in Real-Time Voice AI</div>
+      <div class="talk-meta">Jan 2026 · Voice AI · Real-Time</div>
+    </a>
 
-    <div class="talk-card">
-      <div class="talk-event">Internal Talk · NVIDIA</div>
-      <div class="talk-title">LLM Inference Optimization on DGX</div>
-      <div class="talk-meta">2025 · Inference</div>
-    </div>
+    <a class="talk-card" href="/posts/2026-01-09-voice-clone-cache-filler-audio/">
+      <div class="talk-type">Article</div>
+      <div class="talk-title">Voice Clone Cache — Solving Filler Audio Latency</div>
+      <div class="talk-meta">Jan 2026 · Voice AI · Latency</div>
+    </a>
 
-    <div class="talk-card">
-      <div class="talk-event">Blog / LinkedIn</div>
-      <div class="talk-title">The Hollow GPU Problem — MIG for GenAI</div>
-      <div class="talk-meta">2026 · GPU Infrastructure</div>
-    </div>
+    <a class="talk-card" href="/posts/2025-12-14-context-vs-batch-size-ablation/">
+      <div class="talk-type">Experiment</div>
+      <div class="talk-title">Context Length vs Batch Size Ablation on H200</div>
+      <div class="talk-meta">Dec 2025 · Training · H200</div>
+    </a>
 
-    <div class="talk-card">
-      <div class="talk-event">Article</div>
-      <div class="talk-title">Barge-In Support in Real-Time Voice AI</div>
-      <div class="talk-meta">2026 · Voice AI</div>
-    </div>
+    <a class="talk-card" href="/posts/2025-10-08-architecting-for-stability-pre-norm-rmsnorm-mixed-precision/">
+      <div class="talk-type">Deep Dive</div>
+      <div class="talk-title">Pre-Norm, RMSNorm & Mixed-Precision Training</div>
+      <div class="talk-meta">Oct 2025 · Transformers · cs336</div>
+    </a>
+
+    <a class="talk-card" href="/talks/">
+      <div class="talk-type">Coming Soon</div>
+      <div class="talk-title">Conference & Meetup Talks</div>
+      <div class="talk-meta">2026 · Add your talks here</div>
+    </a>
+
+    <a class="talk-card" href="/projects/agent-llm-dev/">
+      <div class="talk-type">Project</div>
+      <div class="talk-title">Agent LLM Dev — Autonomous Software Development</div>
+      <div class="talk-meta">2024 · LLM · Agents · Python</div>
+    </a>
+
+    <a class="talk-card" href="/projects/make-over/">
+      <div class="talk-type">Project</div>
+      <div class="talk-title">make_over — Character-Level Name Generation</div>
+      <div class="talk-meta">2024 · PyTorch · NLP</div>
+    </a>
 
     <!-- Duplicate set for seamless loop -->
-    <div class="talk-card">
-      <div class="talk-event">Talk / Conference</div>
-      <div class="talk-title">Add your first talk title here</div>
-      <div class="talk-meta">2026 · Topic</div>
-    </div>
 
-    <div class="talk-card">
-      <div class="talk-event">Podcast / Webinar</div>
-      <div class="talk-title">Add podcast or webinar appearance</div>
-      <div class="talk-meta">2025 · LLM Systems</div>
-    </div>
+    <a class="talk-card" href="/posts/2026-01-04-hollow-gpu-mig-optimization/">
+      <div class="talk-type">Article</div>
+      <div class="talk-title">The Hollow GPU Problem — Optimizing GenAI Inference with MIG</div>
+      <div class="talk-meta">Jan 2026 · GPU · NVIDIA · A100</div>
+    </a>
 
-    <div class="talk-card">
-      <div class="talk-event">Internal Talk · NVIDIA</div>
-      <div class="talk-title">LLM Inference Optimization on DGX</div>
-      <div class="talk-meta">2025 · Inference</div>
-    </div>
+    <a class="talk-card" href="/posts/2026-01-10-barge-in-voice-ai-interrupt-handling/">
+      <div class="talk-type">Article</div>
+      <div class="talk-title">Barge-In Support — Interrupt Handling in Real-Time Voice AI</div>
+      <div class="talk-meta">Jan 2026 · Voice AI · Real-Time</div>
+    </a>
 
-    <div class="talk-card">
-      <div class="talk-event">Blog / LinkedIn</div>
-      <div class="talk-title">The Hollow GPU Problem — MIG for GenAI</div>
-      <div class="talk-meta">2026 · GPU Infrastructure</div>
-    </div>
+    <a class="talk-card" href="/posts/2026-01-09-voice-clone-cache-filler-audio/">
+      <div class="talk-type">Article</div>
+      <div class="talk-title">Voice Clone Cache — Solving Filler Audio Latency</div>
+      <div class="talk-meta">Jan 2026 · Voice AI · Latency</div>
+    </a>
 
-    <div class="talk-card">
-      <div class="talk-event">Article</div>
-      <div class="talk-title">Barge-In Support in Real-Time Voice AI</div>
-      <div class="talk-meta">2026 · Voice AI</div>
-    </div>
+    <a class="talk-card" href="/posts/2025-12-14-context-vs-batch-size-ablation/">
+      <div class="talk-type">Experiment</div>
+      <div class="talk-title">Context Length vs Batch Size Ablation on H200</div>
+      <div class="talk-meta">Dec 2025 · Training · H200</div>
+    </a>
+
+    <a class="talk-card" href="/posts/2025-10-08-architecting-for-stability-pre-norm-rmsnorm-mixed-precision/">
+      <div class="talk-type">Deep Dive</div>
+      <div class="talk-title">Pre-Norm, RMSNorm & Mixed-Precision Training</div>
+      <div class="talk-meta">Oct 2025 · Transformers · cs336</div>
+    </a>
+
+    <a class="talk-card" href="/talks/">
+      <div class="talk-type">Coming Soon</div>
+      <div class="talk-title">Conference & Meetup Talks</div>
+      <div class="talk-meta">2026 · Add your talks here</div>
+    </a>
+
+    <a class="talk-card" href="/projects/agent-llm-dev/">
+      <div class="talk-type">Project</div>
+      <div class="talk-title">Agent LLM Dev — Autonomous Software Development</div>
+      <div class="talk-meta">2024 · LLM · Agents · Python</div>
+    </a>
+
+    <a class="talk-card" href="/projects/make-over/">
+      <div class="talk-type">Project</div>
+      <div class="talk-title">make_over — Character-Level Name Generation</div>
+      <div class="talk-meta">2024 · PyTorch · NLP</div>
+    </a>
 
   </div>
 </div>
-
-<style>
-.talks-ticker-wrap {
-  overflow: hidden;
-  width: 100%;
-  margin: 1.5rem 0 2rem;
-  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
-  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
-}
-
-.talks-ticker {
-  display: flex;
-  gap: 1.25rem;
-  width: max-content;
-  animation: ticker-scroll 30s linear infinite;
-}
-
-.talks-ticker:hover {
-  animation-play-state: paused;
-}
-
-@keyframes ticker-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-.talk-card {
-  flex: 0 0 260px;
-  border: 1px solid rgba(128,128,128,0.2);
-  border-radius: 10px;
-  padding: 1rem 1.25rem;
-  background: rgba(255,255,255,0.06);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  cursor: default;
-  transition: border-color 0.2s, background 0.2s;
-}
-
-.talk-card:hover {
-  border-color: rgba(100,160,255,0.4);
-  background: rgba(255,255,255,0.1);
-}
-
-.talk-event {
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  opacity: 0.55;
-  margin-bottom: 0.4rem;
-}
-
-.talk-title {
-  font-size: 0.9rem;
-  font-weight: 500;
-  line-height: 1.4;
-  margin-bottom: 0.5rem;
-}
-
-.talk-meta {
-  font-size: 0.75rem;
-  opacity: 0.5;
-}
-</style>

@@ -1,24 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
+/* ── Typography ─────────────────────────────────────────── */
 :root {
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 }
+body { font-family: var(--font-sans); }
+code, pre, kbd { font-family: var(--font-mono) !important; }
 
-body {
-  font-family: var(--font-sans);
+/* ── Off-white background (light mode) ──────────────────── */
+:root {
+  --color-neutral-50:  #f9f8f6;
+  --color-neutral-100: #f4f3f0;
+}
+html:not(.dark) body,
+html:not(.dark) .bg-neutral,
+html:not(.dark) .bg-neutral-100 {
+  background-color: #f4f3f0 !important;
 }
 
-code, pre, kbd {
-  font-family: var(--font-mono) !important;
+/* ── Talks / Featured ticker ─────────────────────────────── */
+.talks-ticker-wrap {
+  overflow: hidden;
+  width: 100%;
+  margin: 0.5rem 0 2rem;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 6%, black 94%, transparent);
 }
 
-/* Slightly tighter line-height for post lists */
-.article-title {
+.talks-ticker {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: ticker-scroll 32s linear infinite;
+}
+
+.talks-ticker:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.talk-card {
+  flex: 0 0 240px;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 10px;
+  padding: 1rem 1.1rem 0.9rem;
+  background: rgba(255,255,255,0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+
+.talk-card:hover {
+  border-color: rgba(60,120,220,0.3);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+.dark .talk-card {
+  background: rgba(30,30,40,0.6);
+  border-color: rgba(255,255,255,0.08);
+}
+
+.dark .talk-card:hover {
+  border-color: rgba(100,160,255,0.3);
+}
+
+.talk-type {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5a8dee;
+  margin-bottom: 0.35rem;
+}
+
+.dark .talk-type { color: #7aacff; }
+
+.talk-title {
+  font-size: 0.85rem;
   font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.45rem;
+  color: #1a1a1a;
 }
 
-/* Make the author bio on homepage slightly more readable */
-.nX-prose p {
-  line-height: 1.75;
+.dark .talk-title { color: #e8e8e8; }
+
+.talk-meta {
+  font-size: 0.72rem;
+  color: #888;
+  font-weight: 400;
 }

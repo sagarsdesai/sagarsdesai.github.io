@@ -1,0 +1,109 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<article class="prose dark:prose-invert max-w-full">
+  <div class="relative">
+    <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
+    <div class="mx-auto max-w-7xl p-0">
+      <div class="relative sm:overflow-hidden">
+        <div class="fixed inset-x-0 top-0 -z-10">
+          {{ $useDefault := true }}
+          {{ $homepageImage := "" }}
+          {{ with .Site.Params.defaultBackgroundImage }}
+            {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+              {{ $homepageImage = resources.GetRemote . }}
+            {{ else }}
+              {{ $homepageImage = resources.Get . }}
+            {{ end }}
+          {{ end }}
+          {{ with .Site.Params.homepage.homepageImage }}
+            {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+              {{ $homepageImage = resources.GetRemote . }}
+              {{ $useDefault = false }}
+            {{ else }}
+              {{ $homepageImage = resources.Get . }}
+              {{ $useDefault = false }}
+            {{ end }}
+          {{ end }}
+          {{ if $homepageImage }}
+            {{ $style := "" }}
+            {{ $defaultPosition := cond $useDefault site.Params.imagePosition false }}
+            {{ with $.Params.imagePosition | default $defaultPosition }}
+              {{ $style = printf "object-position: %s;" . }}
+            {{ end }}
+            <img
+              id="background-image"
+              class="nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
+              src="{{ $homepageImage.RelPermalink }}"
+              role="presentation"
+              {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
+            <div class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
+            <div class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-neutral-100 opacity-50 mix-blend-normal dark:from-neutral-800 dark:to-neutral-800"></div>
+          {{ end }}
+        </div>
+
+        {{/* Hero text — no circular photo */}}
+        <div class="relative flex flex-col items-center justify-center px-4 py-16 text-center min-h-[420px]">
+          <p class="mb-3 text-xs font-semibold tracking-[0.18em] uppercase text-neutral-500 dark:text-neutral-400">
+            AI Engineer · NVIDIA
+          </p>
+          <h1 class="mb-3 text-5xl font-extrabold text-neutral-900 dark:text-neutral-100 drop-shadow-sm">
+            {{ .Site.Params.Author.name | default .Site.Title }}
+          </h1>
+          {{ with .Site.Params.Author.headline }}
+            <p class="mt-0 mb-8 text-lg font-medium text-neutral-600 dark:text-neutral-300 max-w-xl">
+              {{ . | markdownify }}
+            </p>
+          {{ end }}
+          <div class="text-2xl">
+            {{ with .Site.Params.Author.links }}
+              <div class="flex flex-wrap justify-center gap-1">
+                {{ range $links := . }}
+                  {{ range $name, $url := $links }}
+                    {{ $isEmail := eq $name "email" }}
+                    <a
+                      class="{{ cond $isEmail "email-link" "" }} hover:text-primary-400 text-primary-700 dark:text-primary-300 px-1"
+                      href="{{ cond $isEmail "#" ($url | safeURL) }}"
+                      {{ if $isEmail }}
+                        data-email="{{ $url | base64Encode }}"
+                        data-subject="Contact"
+                      {{ end }}
+                      target="_blank"
+                      aria-label="{{ $name | title }}"
+                      title="{{ $name | title }}"
+                      rel="me noopener noreferrer">
+                      {{ partial "icon.html" $name }}
+                    </a>
+                  {{ end }}
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  {{/* Page content (talks ticker etc.) */}}
+  <section class="prose dark:prose-invert w-full max-w-none px-4 pb-8">
+    {{ .Content }}
+  </section>
+</article>
+
+<section>
+  {{ partial "recent-articles/main.html" . }}
+</section>
+
+{{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
+  <div
+    id="background-blur"
+    class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-xl bg-neutral-100/75 dark:bg-neutral-800/60"></div>
+  {{ $backgroundBlur := resources.Get "js/background-blur.js" }}
+  {{ $backgroundBlur = $backgroundBlur | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
+  <script
+    type="text/javascript"
+    src="{{ $backgroundBlur.RelPermalink }}"
+    integrity="{{ $backgroundBlur.Data.Integrity }}"
+    data-blur-id="background-blur"
+    data-image-id="background-image"
+    {{ if $homepageImage }}data-image-url="{{ $homepageImage.RelPermalink }}"{{ end }}></script>
+{{ end }}

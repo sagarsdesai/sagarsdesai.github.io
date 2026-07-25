@@ -1,0 +1,28 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Sagar Desai"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "AI Engineer — LLM Systems, Voice AI, Inference Infrastructure at NVIDIA"
+
+[params.author]
+  name = "Sagar Desai"
+  email = "sagarsdesai@gmail.com"
+  image = "img/profile.jpg"
+  imageQuality = 96
+  headline = "AI Engineer · LLM Systems · Voice AI · NVIDIA"
+  bio = "Building LLM inference systems and voice AI pipelines at NVIDIA. Writing about transformers, inference optimization, and the math underneath."
+  links = [
+    { linkedin = "https://linkedin.com/in/sagar-desai-6a91a6104" },
+    { github = "https://github.com/sagarsdesai" },
+    { github = "https://github.com/SDcodehub" },
+    { huggingface = "https://huggingface.co/SDcodehub" },
+    { kaggle = "https://kaggle.com/sagardesai90" },
+    { link = "https://sagarsdesai.github.io/SagarDesai_resume.pdf" },
+  ]

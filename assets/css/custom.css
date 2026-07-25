@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+code, pre, kbd {
+  font-family: var(--font-mono) !important;
+}
+
+/* Slightly tighter line-height for post lists */
+.article-title {
+  font-weight: 600;
+}
+
+/* Make the author bio on homepage slightly more readable */
+.nX-prose p {
+  line-height: 1.75;
+}

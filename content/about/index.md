@@ -63,6 +63,6 @@ I write about things I've built, broken, and debugged — not summaries of paper
 
 ## Contact
 
-Reach me on [LinkedIn](https://linkedin.com/in/sagar-desai-6a91a6104) — that's the fastest path. For everything else, [sagarsdesai@gmail.com](mailto:sagarsdesai@gmail.com).
+Reach me on [LinkedIn](https://www.linkedin.com/in/sagar-s-desai/) — that's the fastest path. For everything else, [sagarsdesai@gmail.com](mailto:sagarsdesai@gmail.com).
 
 [Download Resume](/SagarDesai_resume.pdf)

@@ -166,10 +166,9 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # domain = "llama.yoursite.com"
 
 [umamiAnalytics]
-  # TODO: sign up at cloud.umami.is, then fill in your website ID below and uncomment
-  # websiteid = "YOUR-UMAMI-WEBSITE-ID"
-  # domain = "sagarsdesai.github.io"
-  # enableTrackEvent = true
+  websiteid = "9026129d-b7e2-4953-9a7c-837faa6205ec"
+  domain = "sagarsdesai.github.io"
+  enableTrackEvent = true
 
 [selineAnalytics]
   # token = "XXXXXX"

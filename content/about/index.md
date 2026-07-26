@@ -28,6 +28,9 @@ LLM inference infrastructure, real-time voice AI pipelines, GPU utilization and 
 
 **Published:**
 - [Maximize AI Infrastructure Throughput by Consolidating Underutilized GPU Workloads](https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/) — NVIDIA Technical Blog · Mar 2025
+- [Worley Deploys NVIDIA NIM Microservices to Transform EPC Business With Agentic AI](https://www.nvidia.com/en-us/case-studies/worley/) — NVIDIA Case Study
+- [Shell Trains Custom AI Chatbot With NVIDIA NeMo to Uplevel Operations](https://www.nvidia.com/en-in/customer-stories/shell-trains-custom-ai-chatbot-with-nemo/) — NVIDIA Customer Story
+- [SAP Boosts ABAP Code Generation with Constrained Decoding and NVIDIA NIM](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-boosts-abap-code-generation-with-constrained-decoding-and-nvidia-nim/ba-p/14101647) — SAP Community Blog
 
 **Talks & Workshops:**
 - GTC 2024 — Agentic AI · NVIDIA GPU Technology Conference · San Jose

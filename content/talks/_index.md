@@ -40,11 +40,38 @@ Led an in-depth masterclass on advanced RAG techniques for enterprise deployment
 ## Published Writing
 
 ### Maximize AI Infrastructure Throughput by Consolidating Underutilized GPU Workloads
-**NVIDIA Technical Blog** · March 7, 2025
+**NVIDIA Technical Blog** · March 2025
 
-How to address GPU underutilization in production Kubernetes clusters by consolidating workloads with mismatched GPU capacity requirements — specifically for lightweight ASR models running on oversized GPU allocations.
+How to address GPU underutilization in production Kubernetes clusters by consolidating workloads — specifically lightweight ASR models running on oversized GPU allocations.
 
 → [Read on developer.nvidia.com](https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/)
+
+---
+
+### Worley Deploys NVIDIA NIM Microservices to Transform EPC Business With Agentic AI
+**NVIDIA Case Study**
+
+How Worley built an agentic AI platform (Worley AI.Assist) on NVIDIA's AI Enterprise stack, cutting engineer information retrieval time from 15+ minutes to a few minutes across 100,000+ documents.
+
+→ [Read on nvidia.com](https://www.nvidia.com/en-us/case-studies/worley/)
+
+---
+
+### Shell Trains Custom AI Chatbot With NVIDIA NeMo to Uplevel Operations
+**NVIDIA Customer Story**
+
+Shell's domain-specific AI chatbot built with NVIDIA NeMo achieved a 30% accuracy improvement and 20% faster training for chemical expertise applications in energy operations.
+
+→ [Read on nvidia.com](https://www.nvidia.com/en-in/customer-stories/shell-trains-custom-ai-chatbot-with-nemo/)
+
+---
+
+### SAP Boosts ABAP Code Generation with Constrained Decoding and NVIDIA NIM
+**SAP Community Blog**
+
+How SAP improved ABAP code generation quality using constrained decoding techniques with NVIDIA NIM microservices.
+
+→ [Read on community.sap.com](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-boosts-abap-code-generation-with-constrained-decoding-and-nvidia-nim/ba-p/14101647)
 
 ---
 

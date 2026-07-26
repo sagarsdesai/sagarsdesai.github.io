@@ -164,12 +164,6 @@ html:not(.dark) .bg-neutral-100 {
   .lh-name { font-size: 1.35rem !important; }
 }
 
-/* ── Reduced page margins ─────────────────────────────────── */
-body {
-  padding-left: clamp(1rem, 3vw, 3.5rem) !important;
-  padding-right: clamp(1rem, 3vw, 3.5rem) !important;
-}
-
 /* ── List / section page headers ─────────────────────────── */
 main > header {
   padding-bottom: 1.25rem;

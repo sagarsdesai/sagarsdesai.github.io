@@ -18,10 +18,10 @@ One post per week, no fluff, no marketing. Technical content only.
 
 <!-- TODO: After signing up at buttondown.com, replace YOUR-USERNAME below with your Buttondown username -->
 <form
-  action="https://buttondown.com/api/emails/embed-subscribe/YOUR-USERNAME"
+  action="https://buttondown.com/api/emails/embed-subscribe/sagdesai"
   method="post"
   target="popupwindow"
-  onsubmit="window.open('https://buttondown.com/YOUR-USERNAME', 'popupwindow')"
+  onsubmit="window.open('https://buttondown.com/sagdesai', 'popupwindow')"
   class="bd-subscribe-form">
   <div class="bd-field">
     <label for="bd-email">Email address</label>

@@ -33,6 +33,8 @@ LLM inference infrastructure, real-time voice AI pipelines, GPU utilization and 
 - [SAP Boosts ABAP Code Generation with Constrained Decoding and NVIDIA NIM](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-boosts-abap-code-generation-with-constrained-decoding-and-nvidia-nim/ba-p/14101647) — SAP Community Blog
 
 **Talks & Workshops:**
+- [Accelerating LLM Training and Inferencing With Reduced Precision Format](https://www.nvidia.com/en-us/on-demand/session/gtc26-dlit81567/) · GTC 2026 San Jose · DLIT81567
+- [Optimize NVFP4 Training and Inference at Scale Without Losing Quality](https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82063/) · GTC 2026 San Jose · CWES82063
 - GTC 2024 — Agentic AI · NVIDIA GPU Technology Conference · San Jose
 - AI Factory for the Era of Agentic AI · RP Tech × NVIDIA Partner Event · 2025
 - [Optimising RAG Models for Enterprise-Grade Accuracy](https://analyticsindiamag.com/ai-highlights/ai-forum-aim-nvidia-present-masterclass-on-optimizing-rag-models-for-enterprise-grade-accuracy/) · NVIDIA × AIM Masterclass · Aug 2024

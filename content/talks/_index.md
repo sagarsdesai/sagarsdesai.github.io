@@ -12,6 +12,24 @@ Conference sessions, workshops, and published writing from my work at NVIDIA on 
 
 ## Conference Talks
 
+### GTC 2026 — Accelerating LLM Training and Inferencing With Reduced Precision Format
+**Speaker** · March 2026 · San Jose, CA · Session DLIT81567
+
+Presented at GTC 2026 San Jose on accelerating LLM training and inference workloads using reduced precision formats including NVFP4 — covering performance benchmarks, deployment strategies, and practical considerations for production systems.
+
+→ [Watch on NVIDIA On-Demand](https://www.nvidia.com/en-us/on-demand/session/gtc26-dlit81567/)
+
+---
+
+### GTC 2026 — Optimize NVFP4 Training and Inference at Scale Without Losing Quality
+**Speaker** · March 2026 · San Jose, CA · Session CWES82063
+
+Co-presented with KLA at GTC 2026 on pushing the performance frontier of computer vision models using NVFP4 low precision format — demonstrating accuracy-performance trade-offs at scale for enterprise computer vision workloads.
+
+→ [Session details](https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82063/)
+
+---
+
 ### GTC 2024 — NVIDIA GPU Technology Conference
 **Agentic AI** · 2024 · San Jose, CA
 

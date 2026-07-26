@@ -19,6 +19,11 @@ html:not(.dark) .bg-neutral-100 {
   background-color: #f4f3f0 !important;
 }
 
+/* ── Nav spacer (custom class — Tailwind arbitrary values not in compiled CSS) ── */
+.lh-nav-spacer {
+  min-height: 72px;
+}
+
 /* ── Nav dark ribbon ─────────────────────────────────────── */
 .lh-nav {
   background: #18181b;

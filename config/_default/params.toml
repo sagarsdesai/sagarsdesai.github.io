@@ -183,8 +183,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # globalWidgetPosition = "right"
 
 [verification]
-  # TODO: paste your Google Search Console HTML tag meta content value below and uncomment
-  # google = "YOUR-GOOGLE-VERIFICATION-TOKEN"
+  google = "uEMBoSh2boE6NqlAJCZmTci5T-enhOToXL1WuZvbFXQ"
   # bing = ""
 
 [rssnext]

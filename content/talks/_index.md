@@ -30,10 +30,12 @@ Co-presented with KLA at GTC 2026 on pushing the performance frontier of compute
 
 ---
 
-### GTC 2024 — NVIDIA GPU Technology Conference
-**Agentic AI** · 2024 · San Jose, CA
+### GTC 2025 — Address Complex/Logical Tasks With Conversational AI
+**Speaker** · March 2025 · San Jose, CA · Session DLIT71269
 
-Presented at NVIDIA's flagship developer conference GTC 2024 on building agentic AI systems. GTC is the world's leading AI conference, attended by developers, researchers, and enterprise teams.
+Presented at GTC 2025 on building a robust multi-agent, multi-turn conversational AI framework from scratch — covering architecture design, task decomposition, and handling complex logical reasoning chains in production systems.
+
+→ [Session details](https://www.nvidia.com/en-us/on-demand/session/gtc25-dlit71269/)
 
 ---
 

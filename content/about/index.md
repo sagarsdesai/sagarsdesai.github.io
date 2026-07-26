@@ -35,7 +35,7 @@ LLM inference infrastructure, real-time voice AI pipelines, GPU utilization and 
 **Talks & Workshops:**
 - [Accelerating LLM Training and Inferencing With Reduced Precision Format](https://www.nvidia.com/en-us/on-demand/session/gtc26-dlit81567/) · GTC 2026 San Jose · DLIT81567
 - [Optimize NVFP4 Training and Inference at Scale Without Losing Quality](https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-cwes82063/) · GTC 2026 San Jose · CWES82063
-- GTC 2024 — Agentic AI · NVIDIA GPU Technology Conference · San Jose
+- [Address Complex/Logical Tasks With Conversational AI: Multi-Agent, Multi-Turn Framework From Scratch](https://www.nvidia.com/en-us/on-demand/session/gtc25-dlit71269/) · GTC 2025 San Jose · DLIT71269
 - AI Factory for the Era of Agentic AI · RP Tech × NVIDIA Partner Event · 2025
 - [Optimising RAG Models for Enterprise-Grade Accuracy](https://analyticsindiamag.com/ai-highlights/ai-forum-aim-nvidia-present-masterclass-on-optimizing-rag-models-for-enterprise-grade-accuracy/) · NVIDIA × AIM Masterclass · Aug 2024
 

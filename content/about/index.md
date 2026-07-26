@@ -23,13 +23,36 @@ The through-line across everything I've done: take something that works in a not
 
 ## Career
 
-| Period | Role | Company | Focus |
-|--------|------|---------|-------|
-| 2024 – present | AI Engineer | NVIDIA | LLM inference, voice AI, DGX systems |
-| 2022 – 2024 | AI Engineer | Fractal Analytics | RAG, LLM apps, MLOps |
-| 2021 – 2022 | ML Engineer | Mercedes-Benz R&D | CAE analysis + ML, Python/Tcl automation |
-| 2018 – 2021 | Analytical Method Engineer | American Axle & Manufacturing | CAE, fatigue analysis, simulation |
-| 2016 – 2018 | FE Engineer | GE Transportation | FEA, automation scripts (70% efficiency gain) |
+### NVIDIA — AI Engineer · 2024–present
+LLM inference infrastructure, real-time voice AI pipelines, GPU utilization and MIG optimization for GenAI workloads on DGX systems.
+
+**Published:**
+- [Maximize AI Infrastructure Throughput by Consolidating Underutilized GPU Workloads](https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/) — NVIDIA Technical Blog · Mar 2025
+
+**Talks & Workshops:**
+- GTC 2024 — Agentic AI · NVIDIA GPU Technology Conference · San Jose
+- AI Factory for the Era of Agentic AI · RP Tech × NVIDIA Partner Event · 2025
+- [Optimising RAG Models for Enterprise-Grade Accuracy](https://analyticsindiamag.com/ai-highlights/ai-forum-aim-nvidia-present-masterclass-on-optimizing-rag-models-for-enterprise-grade-accuracy/) · NVIDIA × AIM Masterclass · Aug 2024
+
+---
+
+### Fractal Analytics — AI Engineer · 2022–2024
+RAG applications, LLM deployment pipelines, and MLOps tooling for enterprise customers.
+
+---
+
+### Mercedes-Benz R&D — ML Engineer · 2021–2022
+CAE analysis with ML, Python and Tcl automation for simulation workflows.
+
+---
+
+### American Axle & Manufacturing — Analytical Method Engineer · 2018–2021
+CAE, fatigue analysis, and simulation.
+
+---
+
+### GE Transportation — FE Engineer · 2016–2018
+FEA, automation scripts delivering 70% efficiency gain.
 
 ---
 

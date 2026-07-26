@@ -164,11 +164,6 @@ html:not(.dark) .bg-neutral-100 {
   .lh-name { font-size: 1.35rem !important; }
 }
 
-/* ── Large-screen side padding (lg: 104px/side vs theme's 128px) ── */
-@media (min-width: 1024px) {
-  body { padding-left: 6.5rem !important; padding-right: 6.5rem !important; }
-}
-
 /* ── List / section page headers (not article pages) ─────── */
 main > header:not([id]) {
   padding-bottom: 1.25rem;
@@ -185,6 +180,20 @@ main > header:not([id]) h1 {
 }
 
 .dark main > header:not([id]) h1 { color: #f4f4f5 !important; }
+
+/* ── Writing page: collapse empty prose description gap ──────── */
+main > section.prose {
+  margin-bottom: 0 !important;
+  min-height: 0;
+}
+
+/* ── Writing page: consistent article alignment (no thumbnail shift) ─ */
+main > section.space-y-10 .article-link--simple {
+  flex-direction: column !important;
+}
+main > section.space-y-10 .article-link--simple .thumbnail {
+  display: none;
+}
 
 /* ── Talks & Appearances section heading ──────────────────── */
 .lh-content h2 {

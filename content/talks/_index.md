@@ -6,25 +6,48 @@ showReadingTime: false
 showWordCount: false
 ---
 
-A collection of conference talks, technical presentations, and videos. I'll keep adding as they accumulate.
+Conference sessions, workshops, and published writing from my work at NVIDIA on LLM inference, voice AI, and enterprise AI deployment.
 
 ---
 
-## Talks
+## Conference Talks
 
-*No public talks listed yet — check back soon or follow on [LinkedIn](https://linkedin.com/in/sagar-desai-6a91a6104) for updates.*
+### GTC 2024 — NVIDIA GPU Technology Conference
+**Agentic AI** · 2024 · San Jose, CA
 
----
-
-## Videos
-
-*YouTube links will appear here. Subscribe to stay updated.*
+Presented at NVIDIA's flagship developer conference GTC 2024 on building agentic AI systems. GTC is the world's leading AI conference, attended by developers, researchers, and enterprise teams.
 
 ---
 
-## Notable LinkedIn Posts
+### AI Factory for the Era of Agentic AI — RP Tech × NVIDIA
+**Speaker** · 2025 · India
 
-Technical threads I've written that generated good discussion:
+Presented at the NVIDIA AI Factory event in collaboration with RP Tech (NVIDIA Partner), covering NVIDIA's full-stack approach to AI infrastructure — from GPU and NVLink to AI Enterprise software and Blueprints. Addressed enterprise audiences on deploying production-grade agentic AI systems.
 
-- [Add links here as they go up]
+---
 
+## Workshops & Webinars
+
+### Optimising RAG Models for Enterprise-Grade Accuracy
+**NVIDIA × Analytics India Magazine (AIM) · AI Forum Community** · August 9, 2024 · Virtual
+
+Led an in-depth masterclass on advanced RAG techniques for enterprise deployments — covering query optimization, embedding refinement, reranking strategies, and production deployment best practices with NVIDIA's stack.
+
+→ [Event page](https://analyticsindiamag.com/ai-highlights/ai-forum-aim-nvidia-present-masterclass-on-optimizing-rag-models-for-enterprise-grade-accuracy/) · [AIM coverage](https://analyticsindiamag.com/ai-highlights/unlocking-the-potential-of-rag-models-in-enterprise-ai-insights-from-nvidias-workshop/)
+
+---
+
+## Published Writing
+
+### Maximize AI Infrastructure Throughput by Consolidating Underutilized GPU Workloads
+**NVIDIA Technical Blog** · March 7, 2025
+
+How to address GPU underutilization in production Kubernetes clusters by consolidating workloads with mismatched GPU capacity requirements — specifically for lightweight ASR models running on oversized GPU allocations.
+
+→ [Read on developer.nvidia.com](https://developer.nvidia.com/blog/maximize-ai-infrastructure-throughput-by-consolidating-underutilized-gpu-workloads/)
+
+---
+
+## Follow for Updates
+
+New talks and writing get posted on [LinkedIn](https://www.linkedin.com/in/sagar-s-desai/) first. Subscribe to the [newsletter](/subscribe/) to get technical posts in your inbox.

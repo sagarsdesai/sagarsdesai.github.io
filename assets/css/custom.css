@@ -164,23 +164,27 @@ html:not(.dark) .bg-neutral-100 {
   .lh-name { font-size: 1.35rem !important; }
 }
 
-/* ── List / section page headers ─────────────────────────── */
-main > header {
+/* ── Large-screen side padding (lg: 104px/side vs theme's 128px) ── */
+@media (min-width: 1024px) {
+  body { padding-left: 6.5rem !important; padding-right: 6.5rem !important; }
+}
+
+/* ── List / section page headers (not article pages) ─────── */
+main > header:not([id]) {
   padding-bottom: 1.25rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid rgba(90,141,238,0.12);
 }
 
-main > header h1 {
+main > header:not([id]) h1 {
   font-size: 2.25rem !important;
   font-weight: 800 !important;
   letter-spacing: -0.02em;
-  margin-top: 0.5rem !important;
   margin-bottom: 0.25rem !important;
   color: #111 !important;
 }
 
-.dark main > header h1 { color: #f4f4f5 !important; }
+.dark main > header:not([id]) h1 { color: #f4f4f5 !important; }
 
 /* ── Talks & Appearances section heading ──────────────────── */
 .lh-content h2 {

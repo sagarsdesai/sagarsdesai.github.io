@@ -26,7 +26,7 @@ disableTextInHeader = false
 
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
-# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+defaultSocialImage = "/img/DSC_6125.jpg" # used as default for social media sharing (Open Graph and Twitter)
 hotlinkFeatureImage = false
 # Thumbnail aspect ratio as a number (e.g., "1.5", "1.0", "1.777")
 # thumbnailAspectRatio = "1.5"
@@ -105,6 +105,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showWordCount = true
   sharingLinks = ["linkedin", "twitter"]
   showZenMode = true
+  showComments = true
 
 [list]
   showHero = false
@@ -165,10 +166,9 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # domain = "llama.yoursite.com"
 
 [umamiAnalytics]
-  # websiteid = "ABC12345"
-  # domain = "llama.yoursite.com"
-  # dataDomains = "yoursite.com,yoursite2.com"
-  # scriptName = ""
+  # TODO: sign up at cloud.umami.is, then fill in your website ID below and uncomment
+  # websiteid = "YOUR-UMAMI-WEBSITE-ID"
+  # domain = "sagarsdesai.github.io"
   # enableTrackEvent = true
 
 [selineAnalytics]
@@ -183,15 +183,14 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # globalWidgetPosition = "right"
 
 [verification]
-  # google = ""
+  # TODO: paste your Google Search Console HTML tag meta content value below and uncomment
+  # google = "YOUR-GOOGLE-VERIFICATION-TOKEN"
   # bing = ""
-  # pinterest = ""
-  # yandex = ""
-  # fediverse = ""
 
 [rssnext]
-  # feedId = ""
-  # userId = ""
+  # TODO: claim your feed at follow.is, then fill in feedId and userId and uncomment
+  # feedId = "YOUR-FEED-ID"
+  # userId = "YOUR-USER-ID"
 
 [advertisement]
   # adsense = ""

@@ -3,7 +3,7 @@ title: "Sagar Desai"
 description: "AI Engineer — LLM Systems, Voice AI, Inference Infrastructure at NVIDIA"
 ---
 
-Building LLM inference systems and voice AI pipelines at NVIDIA. Writing about transformers, training, and the stack underneath.
+Building LLM inference systems and voice AI pipelines at NVIDIA. Writing about transformers, training, and the stack underneath. [→ Subscribe to the newsletter](/subscribe/)
 
 ---
 

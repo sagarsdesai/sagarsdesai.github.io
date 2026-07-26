@@ -18,6 +18,11 @@
   pageRef = "about"
   weight = 40
 
+[[main]]
+  name = "Subscribe"
+  pageRef = "subscribe"
+  weight = 50
+
 [[footer]]
   name = "Tags"
   pageRef = "tags"
@@ -27,3 +32,8 @@
   name = "Series"
   pageRef = "series"
   weight = 20
+
+[[footer]]
+  name = "Subscribe"
+  pageRef = "subscribe"
+  weight = 30

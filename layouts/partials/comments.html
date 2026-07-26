@@ -1,0 +1,20 @@
+{{/* Newsletter CTA — appended after every article */}}
+<div class="article-subscribe-cta not-prose">
+  <div class="asc-inner">
+    <div class="asc-copy">
+      <p class="asc-heading">Enjoyed this post?</p>
+      <p class="asc-sub">I write weekly on LLM inference, voice AI, and GPU infrastructure — drawn from production work at NVIDIA. Get it in your inbox.</p>
+    </div>
+    <!-- TODO: replace YOUR-USERNAME with your Buttondown username after signup at buttondown.com -->
+    <form
+      class="asc-form"
+      action="https://buttondown.com/api/emails/embed-subscribe/YOUR-USERNAME"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.com/YOUR-USERNAME', 'popupwindow')">
+      <input type="email" name="email" placeholder="your@email.com" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <p class="asc-note">No spam · Unsubscribe anytime · <a href="/index.xml">RSS also available</a></p>
+  </div>
+</div>

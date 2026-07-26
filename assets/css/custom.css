@@ -19,6 +19,151 @@ html:not(.dark) .bg-neutral-100 {
   background-color: #f4f3f0 !important;
 }
 
+/* ── Nav dark ribbon ─────────────────────────────────────── */
+.lh-nav {
+  background: #18181b;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  box-shadow: 0 1px 12px rgba(0,0,0,0.45);
+}
+
+.lh-nav a,
+.lh-nav button {
+  color: #d4d4d8 !important;
+}
+
+.lh-nav a:hover,
+.lh-nav button:hover {
+  color: #ffffff !important;
+}
+
+/* ── LinkedIn Hero ────────────────────────────────────────── */
+.lh-hero {
+  margin-bottom: 2rem;
+}
+
+.lh-banner {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+  background: #1a0533;
+}
+
+.lh-banner-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center 38% !important;
+  margin: 0 !important;
+  display: block;
+}
+
+.lh-banner-fade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.28) 100%);
+  pointer-events: none;
+}
+
+.lh-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-top: -52px;
+  padding: 0 0.5rem;
+}
+
+.lh-avatar-wrap {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.22);
+  background: #1a0533;
+  position: relative;
+  z-index: 2;
+}
+
+.dark .lh-avatar-wrap {
+  border-color: #18181b;
+}
+
+.lh-avatar {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: 55% 12% !important;
+  margin: 0 !important;
+  border-radius: 50%;
+  display: block;
+}
+
+.lh-info {
+  padding-top: 60px;
+  flex: 1;
+  min-width: 0;
+}
+
+.lh-name {
+  font-size: 1.75rem !important;
+  font-weight: 800 !important;
+  margin: 0 0 0.2rem !important;
+  line-height: 1.2 !important;
+  color: #111 !important;
+}
+
+.dark .lh-name { color: #f4f4f5 !important; }
+
+.lh-headline {
+  font-size: 0.9rem !important;
+  color: #666 !important;
+  margin: 0 0 0.65rem !important;
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+}
+
+.dark .lh-headline { color: #a1a1aa !important; }
+
+.lh-social {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.lh-social-link {
+  color: #5a8dee !important;
+  font-size: 1.25rem;
+  transition: color 0.15s, transform 0.12s;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  padding: 0.15rem;
+}
+
+.lh-social-link:hover {
+  color: #3b6fd4 !important;
+  transform: translateY(-2px);
+}
+
+.dark .lh-social-link { color: #7aacff !important; }
+
+/* ── Bio + Talks content ──────────────────────────────────── */
+.lh-content {
+  max-width: none !important;
+  padding-bottom: 1rem;
+}
+
+/* ── Mobile ───────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .lh-banner { height: 180px; }
+  .lh-profile { margin-top: -38px; gap: 0.75rem; }
+  .lh-avatar-wrap { width: 90px; height: 90px; }
+  .lh-info { padding-top: 44px; }
+  .lh-name { font-size: 1.35rem !important; }
+}
+
 /* ── Talks / Featured ticker ─────────────────────────────── */
 .talks-ticker-wrap {
   overflow: hidden;
@@ -101,3 +246,184 @@ html:not(.dark) .bg-neutral-100 {
   color: #888;
   font-weight: 400;
 }
+
+/* ── Article footer newsletter CTA ───────────────────────── */
+.article-subscribe-cta {
+  margin-top: 3rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  padding-top: 2rem;
+}
+
+.dark .article-subscribe-cta {
+  border-top-color: rgba(255,255,255,0.08);
+}
+
+.asc-inner {
+  background: linear-gradient(135deg, #f0f4ff 0%, #f9f8f6 100%);
+  border: 1px solid rgba(90,141,238,0.18);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+}
+
+.dark .asc-inner {
+  background: linear-gradient(135deg, #1a1f2e 0%, #18181b 100%);
+  border-color: rgba(122,172,255,0.15);
+}
+
+.asc-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+  color: #111;
+}
+
+.dark .asc-heading { color: #f4f4f5; }
+
+.asc-sub {
+  font-size: 0.875rem;
+  color: #555;
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+.dark .asc-sub { color: #a1a1aa; }
+
+.asc-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.asc-form input[type="email"] {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 7px;
+  font-size: 0.875rem;
+  background: #fff;
+  color: #111;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.asc-form input[type="email"]:focus {
+  border-color: #5a8dee;
+}
+
+.dark .asc-form input[type="email"] {
+  background: #27272a;
+  border-color: rgba(255,255,255,0.12);
+  color: #f4f4f5;
+}
+
+.asc-form button {
+  padding: 0.5rem 1.2rem;
+  background: #5a8dee;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.12s;
+  white-space: nowrap;
+}
+
+.asc-form button:hover {
+  background: #3b6fd4;
+  transform: translateY(-1px);
+}
+
+.asc-note {
+  font-size: 0.75rem;
+  color: #999;
+  margin: 0;
+}
+
+.asc-note a {
+  color: #5a8dee;
+  text-decoration: none;
+}
+
+.dark .asc-note { color: #71717a; }
+
+/* ── Subscribe page form ──────────────────────────────────── */
+.bd-subscribe-form {
+  background: linear-gradient(135deg, #f0f4ff 0%, #f9f8f6 100%);
+  border: 1px solid rgba(90,141,238,0.18);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 480px;
+}
+
+.dark .bd-subscribe-form {
+  background: linear-gradient(135deg, #1a1f2e 0%, #18181b 100%);
+  border-color: rgba(122,172,255,0.15);
+}
+
+.bd-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.bd-field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.dark .bd-field label { color: #d4d4d8; }
+
+.bd-subscribe-form input[type="email"] {
+  padding: 0.55rem 0.9rem;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 7px;
+  font-size: 0.9rem;
+  background: #fff;
+  color: #111;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.bd-subscribe-form input[type="email"]:focus {
+  border-color: #5a8dee;
+}
+
+.dark .bd-subscribe-form input[type="email"] {
+  background: #27272a;
+  border-color: rgba(255,255,255,0.12);
+  color: #f4f4f5;
+}
+
+.bd-subscribe-form button {
+  padding: 0.55rem 1.4rem;
+  background: #5a8dee;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.15s, transform 0.12s;
+}
+
+.bd-subscribe-form button:hover {
+  background: #3b6fd4;
+  transform: translateY(-1px);
+}
+
+.bd-note {
+  font-size: 0.78rem;
+  color: #999;
+  margin: 0;
+}
+
+.dark .bd-note { color: #71717a; }
